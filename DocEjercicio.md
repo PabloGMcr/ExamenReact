@@ -179,7 +179,7 @@ export default Formualrio;
 
 # Logica del formulario.
 
-El formulario tiene un solo `label` donde se resiben todos los inputs  se muestran con un texto y un `placeholder` que va cambiando al dar click al boton siguiente estos eventos ultilizan el metodo `switch`
+El formulario tiene un solo `label` donde se resiben los inputs requeridos en el proyecto, se muestran con un texto y un `placeholder` que se va cambiando en el formulario al dar click al boton "siguiente", estos eventos ultilizan el metodo `switch`
 
 ~~~js
 getNextStepPlaceholder = () => {
@@ -206,7 +206,7 @@ getNextStepPlaceholder = () => {
 
 ~~~
 
-Al llenar todos los input se hace el envio de datos que se puede ver en consola y se dispara una `alert`
+* Al llenar todos los input se hace el envio de datos que se puede ver en consola y se dispara una `alert`
 
 ~~~js
 
@@ -221,4 +221,21 @@ Al llenar todos los input se hace el envio de datos que se puede ver en consola 
         });
 
         window.alert('Se ha enviado la información!');
+~~~
+
+# CSS y HTML
+
+* Se ultilza bootstrap y unos codigos de emogis para dar estilo a los Componentes que 
+estan un `div` con  los sigientes estilos :
+
+~~~html
+
+div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="display-4">Contac  &#9993;</h1>
+          
+              <h2 class="lead">React : Ejercicio de Rutas</h2>
+              <img className="w-25 h-25" src="/logo192.png" alt=""></img>
+            </div>
+         </div>
 ~~~
